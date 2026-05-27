@@ -16,7 +16,7 @@ This dashboard allows us to know the behaviour of a person in Ecuador that was d
 
 You can get information specifying where it was detained.
 
-![Use](assets/Dash.png)
+![Use](assets/Images/Dash.png)
 
 
 
@@ -40,7 +40,7 @@ In this example, I use the option Lasso that allows selecting points.
 
 
 
-![](assets/screen\_record)
+![](assets/Images/screen_record.gif)
 
 
 
