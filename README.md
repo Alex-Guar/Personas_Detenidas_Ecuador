@@ -6,7 +6,7 @@
 
 
 
-\##  Description
+\#  Description
 
 
 
@@ -20,7 +20,7 @@ You can get information specifying where it was detained.
 
 
 
-\## Usage
+\# Usage
 
 
 
@@ -46,7 +46,7 @@ In this example, I use the option Lasso that allows selecting points.
 
 
 
-\## License
+\# License
 
 MIT License
 
