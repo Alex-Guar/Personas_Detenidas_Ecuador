@@ -26,7 +26,7 @@ from plotly.graph_objs import layout
 
 app = Dash(__name__)
 
-
+server = app.server #huggingface
 d_f_1 = pd.read_parquet('data.parquet')
 
 data_months = d_f_1.fecha_detencion_aprehension.unique()
@@ -1095,4 +1095,4 @@ def trace_bar_parroquia(dragmode,canton,provincia,month,year,selectedData):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=False, host='0.0.0.0', port=7860)
