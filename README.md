@@ -30,20 +30,13 @@ The dash can use throw two ways:
 
 1. Clone the directory.
 
-2 To visit the page [Click to use the project](https://huggingface.co/spaces/AlexGuar/personas\_detenidas\_ecuador)
-
-
-
+2. To visit the page [Click to use the project](https://huggingface.co/spaces/AlexGuar/personas\_detenidas\_ecuador)
 
 
 In this example, I use the option Lasso that allows selecting points.
 
 
-
-![](assets/Images/screen_record.gif)
-
-
-
+![gif](assets/Images/screen_record.gif)
 
 
 # License
