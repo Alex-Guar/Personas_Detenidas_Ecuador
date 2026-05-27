@@ -1,4 +1,4 @@
-# \# Personas\_Detenidas\_Ecuador
+#  Personas\_Detenidas\_Ecuador
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-\#  Description
+#  Description
 
 
 
@@ -16,11 +16,11 @@ This dashboard allows us to know the behaviour of a person in Ecuador that was d
 
 You can get information specifying where it was detained.
 
-!\[](assets/Dash.png)
+![](assets/Dash.png)
 
 
 
-\# Usage
+# Usage
 
 
 
@@ -30,7 +30,7 @@ The dash can use throw two ways:
 
 1. Clone the directory.
 
-2\. To visit the page \[Click to use the project](https://huggingface.co/spaces/AlexGuar/personas\_detenidas\_ecuador)
+2 To visit the page [Click to use the project](https://huggingface.co/spaces/AlexGuar/personas\_detenidas\_ecuador)
 
 
 
@@ -40,13 +40,13 @@ In this example, I use the option Lasso that allows selecting points.
 
 
 
-!\[](assets/screen\_record)
+![](assets/screen\_record)
 
 
 
 
 
-\# License
+# License
 
 MIT License
 
