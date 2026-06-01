@@ -990,16 +990,22 @@ def trace_bar_parroquia(dragmode,canton,provincia,month,year,selectedData):
 
     condition = querys(canton,provincia,month,year)
 
-    events_pan = d_f_1[condition].nombre_parroquia.to_numpy()
 
     if canton != None:
 
         title = "Parroquias"
         events_pan = d_f_1[condition].nombre_parroquia.to_numpy()
-    else:
+        
+    elif provincia != None:
+
         title = "Cantones"
 
         events_pan = d_f_1[condition].nombre_canton.to_numpy()
+    else:
+
+        title = "Provincias"
+
+        events_pan = d_f_1[condition].nombre_provincia.to_numpy()
 
     def clean_data_parroquia(records):
         
