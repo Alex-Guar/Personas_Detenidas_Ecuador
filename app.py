@@ -992,6 +992,15 @@ def trace_bar_parroquia(dragmode,canton,provincia,month,year,selectedData):
 
     events_pan = d_f_1[condition].nombre_parroquia.to_numpy()
 
+    if canton != None:
+
+        title = "Parroquias"
+        events_pan = d_f_1[condition].nombre_parroquia.to_numpy()
+    else:
+        title = "Cantones"
+
+        events_pan = d_f_1[condition].nombre_canton.to_numpy()
+
     def clean_data_parroquia(records):
         
         result = []
@@ -1032,7 +1041,7 @@ def trace_bar_parroquia(dragmode,canton,provincia,month,year,selectedData):
                 'xaxis' : {'showgrid':False},
                 'yaxis' : {'showgrid' : False},
                 'margin': {'b': 0, 't': 42, 'l':0,'r':0},
-                'title' : {'text': 'Parroquías'},
+                'title' : {'text': title},
                 }
 
 
@@ -1096,3 +1105,5 @@ def trace_bar_parroquia(dragmode,canton,provincia,month,year,selectedData):
 
 if __name__ == '__main__':
     app.run_server(debug=False, host='0.0.0.0', port=7860)
+    
+#    app.run(debug=True)
