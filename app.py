@@ -26,7 +26,7 @@ from plotly.graph_objs import layout
 
 app = Dash(__name__)
 
-server = app.server #huggingface
+#server = app.server #huggingface
 d_f_1 = pd.read_parquet('data.parquet')
 
 data_months = d_f_1.fecha_detencion_aprehension.unique()
@@ -918,7 +918,7 @@ def trace_bar_infraccion(dragmode,canton,provincia,month,year,selectedData):
 
     
     def text_size_font(length_values):
-        '''It Define the size of title of bar text'''
+        '''to define the size of title of bar text'''
         if length_values > 12:
             size = 112211
         else:
@@ -1110,6 +1110,6 @@ def trace_bar_parroquia(dragmode,canton,provincia,month,year,selectedData):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False, host='0.0.0.0', port=7860)
+#    app.run_server(debug=False, host='0.0.0.0', port=7860)
     
-#    app.run(debug=True)
+    app.run(debug=True)
