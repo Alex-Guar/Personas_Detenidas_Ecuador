@@ -81,3 +81,7 @@ html{
 .dash-dropdown-grid-container{
 background-color: #393E46;
 }
+
+.dash-dropdown-value-item {
+    color: white;
+}
